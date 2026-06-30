@@ -21,10 +21,10 @@ export const botConfig = {
     // 3 = Watching
     // 4 = Custom
     // 5 = Competing
-    activities: [
+    activities: [3
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Looking over Eco Lounge,
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -59,11 +59,15 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
-    ],
-
+      { question: "What is your Discord username?", required: true },
+      { question: "What's your robloxs username?", required: true },
+      { question: "Do you meet the reqs?", required: true },
+      { question: "What rank are you in Eco Lounge?",
+      { question: "what rank are you applying for? (Only say ones that are open and must be staff before applying for those open ranks if not please say Staff)",
+      { question: "Do you have any moderation history we are going to check don't lie",
+      { question: "What do you do if someone is npt taking the right action to a rule breaker?",
+      { question: "If your bff does something bad and needs moderation action what will you do? (2+ Sentinces) 
+      { question: "Please don't respond to this one do you understand that using Ai will lead to a blacklist and we will check the text if and Ai Checker. Respond yes or no.
     // Embed colors by application status.
     statusColors: {
       pending: "#FFA500",
@@ -207,7 +211,7 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1520962840658444288],
 
     // Priority options users/staff can assign.
     priorities: {
